@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the main Excel file
-main_excel_file = r"C:\Users\BryanChacha\OneDrive - Saleslink\MyPrograms\Accounts\Ace Hardware\2024\Q2 Ace Account Maintenance\Ace_ALL_MASTER.xlsx"
+main_excel_file = r"example\path\ALL_MASTER.xlsx"
 df_main = pd.read_excel(main_excel_file)
 
 # Read the reference Excel files
